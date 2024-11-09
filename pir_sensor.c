@@ -21,7 +21,7 @@ pinMode(sensor, INPUT); // Initialize sensor as an input
 Serial.begin(115200); // initialize serial
 }
 void loop(){
-delay(100);
+delay(110);
 val = digitalRead(sensor); // read sensor value
 lcd.setCursor(0, 1);
 
